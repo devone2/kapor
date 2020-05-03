@@ -1,6 +1,7 @@
 #!/bin/bash
 
 n=${2:-100}
+mkdir -p unlabeled
 echo "Number to download: $n"
 for ((i=0;i<$n;i++))
 do
